@@ -78,7 +78,7 @@ function App() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 bg-gray-50/50">
+      <section id="services" className="py-20 bg-muted/50">
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <Badge variant="secondary">Our Services</Badge>
@@ -287,7 +287,7 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t bg-gray-50/50">
+      <footer className="border-t bg-muted/30">
         <div className="container mx-auto px-4 py-8 md:px-6">
           <div className="grid gap-6 md:grid-cols-4">
             <div className="space-y-4">
