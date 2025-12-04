@@ -9,7 +9,7 @@ function App() {
     <div className="min-h-screen bg-background">
       {/* Navigation */}
       <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-16 items-center">
+        <div className="container mx-auto flex h-16 items-center">
           <div className="mr-4 flex">
             <a className="mr-6 flex items-center space-x-2" href="#home">
               <Building2 className="h-6 w-6" />
@@ -30,7 +30,7 @@ function App() {
 
       {/* Hero Section */}
       <section id="home" className="relative py-20 md:py-32">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
@@ -40,7 +40,7 @@ function App() {
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                   Building Your Dreams Into Reality
                 </h1>
-                <p className="max-w-[600px] text-gray-500 md:text-xl">
+                <p className="max-w-[600px] text-muted-foreground md:text-xl">
                   With over 25 years of experience, we deliver exceptional construction services
                   from residential homes to commercial buildings. Quality, reliability, and innovation
                   are at the core of everything we do.
@@ -53,11 +53,11 @@ function App() {
               <div className="flex items-center space-x-6 pt-4">
                 <div className="flex items-center space-x-2">
                   <Users className="h-5 w-5 text-primary" />
-                  <span className="text-sm text-gray-600">500+ Happy Clients</span>
+                  <span className="text-sm text-muted-foreground">500+ Happy Clients</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Award className="h-5 w-5 text-primary" />
-                  <span className="text-sm text-gray-600">Award Winning</span>
+                  <span className="text-sm text-muted-foreground">Award Winning</span>
                 </div>
               </div>
             </div>
@@ -79,13 +79,13 @@ function App() {
 
       {/* Services Section */}
       <section id="services" className="py-20 bg-gray-50/50">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <Badge variant="secondary">Our Services</Badge>
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">
               Complete Construction Solutions
             </h2>
-            <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               From concept to completion, we provide comprehensive construction services
               tailored to meet your specific needs and exceed your expectations.
             </p>
@@ -102,7 +102,7 @@ function App() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2 text-sm text-gray-600">
+                <ul className="space-y-2 text-sm text-muted-foreground">
                   <li>• Custom Home Building</li>
                   <li>• Home Renovations</li>
                   <li>• Kitchen & Bath Remodeling</li>
@@ -121,7 +121,7 @@ function App() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2 text-sm text-gray-600">
+                <ul className="space-y-2 text-sm text-muted-foreground">
                   <li>• Office Buildings</li>
                   <li>• Retail Spaces</li>
                   <li>• Warehouses</li>
@@ -140,7 +140,7 @@ function App() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2 text-sm text-gray-600">
+                <ul className="space-y-2 text-sm text-muted-foreground">
                   <li>• Design-Build Services</li>
                   <li>• Project Management</li>
                   <li>• Green Building</li>
@@ -154,14 +154,14 @@ function App() {
 
       {/* About Section */}
       <section id="about" className="py-20">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12">
             <div className="flex flex-col justify-center space-y-4">
               <Badge variant="secondary" className="w-fit">About BuildCorp</Badge>
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">
                 25+ Years of Excellence in Construction
               </h2>
-              <p className="text-gray-500 md:text-lg">
+              <p className="text-muted-foreground md:text-lg">
                 Founded in 1998, BuildCorp has grown from a small local contractor to
                 one of the region's most trusted construction companies. Our commitment
                 to quality, safety, and customer satisfaction has earned us a reputation
@@ -194,7 +194,7 @@ function App() {
                 <CardContent className="p-6">
                   <div className="text-center">
                     <div className="text-3xl font-bold text-primary">500+</div>
-                    <div className="text-sm text-gray-600">Projects Completed</div>
+                    <div className="text-sm text-muted-foreground">Projects Completed</div>
                   </div>
                 </CardContent>
               </Card>
@@ -202,7 +202,7 @@ function App() {
                 <CardContent className="p-6">
                   <div className="text-center">
                     <div className="text-3xl font-bold text-primary">25+</div>
-                    <div className="text-sm text-gray-600">Years Experience</div>
+                    <div className="text-sm text-muted-foreground">Years Experience</div>
                   </div>
                 </CardContent>
               </Card>
@@ -210,7 +210,7 @@ function App() {
                 <CardContent className="p-6">
                   <div className="text-center">
                     <div className="text-3xl font-bold text-primary">98%</div>
-                    <div className="text-sm text-gray-600">Client Satisfaction</div>
+                    <div className="text-sm text-muted-foreground">Client Satisfaction</div>
                   </div>
                 </CardContent>
               </Card>
@@ -223,13 +223,13 @@ function App() {
 
       {/* Contact Section */}
       <section id="contact" className="py-20">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <Badge variant="secondary">Get In Touch</Badge>
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">
               Ready to Start Your Project?
             </h2>
-            <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed">
+            <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
               Contact us today for a free consultation and estimate. We're here to bring your vision to life.
             </p>
           </div>
@@ -246,7 +246,7 @@ function App() {
               </CardHeader>
               <CardContent className="text-center">
                 <p className="font-semibold">(555) 123-4567</p>
-                <p className="text-sm text-gray-600">Mon - Fri, 8AM - 6PM</p>
+                <p className="text-sm text-muted-foreground">Mon - Fri, 8AM - 6PM</p>
               </CardContent>
             </Card>
             <Card>
@@ -261,7 +261,7 @@ function App() {
               </CardHeader>
               <CardContent className="text-center">
                 <p className="font-semibold">info@buildcorp.com</p>
-                <p className="text-sm text-gray-600">We'll respond within 24 hours</p>
+                <p className="text-sm text-muted-foreground">We'll respond within 24 hours</p>
               </CardContent>
             </Card>
             <Card>
@@ -276,7 +276,7 @@ function App() {
               </CardHeader>
               <CardContent className="text-center">
                 <p className="font-semibold">123 Construction Ave</p>
-                <p className="text-sm text-gray-600">Building City, BC 12345</p>
+                <p className="text-sm text-muted-foreground">Building City, BC 12345</p>
               </CardContent>
             </Card>
           </div>
@@ -288,20 +288,20 @@ function App() {
 
       {/* Footer */}
       <footer className="border-t bg-gray-50/50">
-        <div className="container px-4 py-8 md:px-6">
+        <div className="container mx-auto px-4 py-8 md:px-6">
           <div className="grid gap-6 md:grid-cols-4">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
                 <Building2 className="h-6 w-6" />
                 <span className="font-bold">BuildCorp</span>
               </div>
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-muted-foreground">
                 Building excellence, delivering quality construction services since 1998.
               </p>
             </div>
             <div className="space-y-4">
               <h4 className="font-semibold">Services</h4>
-              <ul className="space-y-2 text-sm text-gray-600">
+              <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>Residential Construction</li>
                 <li>Commercial Buildings</li>
                 <li>Renovations</li>
@@ -310,7 +310,7 @@ function App() {
             </div>
             <div className="space-y-4">
               <h4 className="font-semibold">Company</h4>
-              <ul className="space-y-2 text-sm text-gray-600">
+              <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>About Us</li>
                 <li>Our Team</li>
                 <li>Portfolio</li>
@@ -319,7 +319,7 @@ function App() {
             </div>
             <div className="space-y-4">
               <h4 className="font-semibold">Contact</h4>
-              <ul className="space-y-2 text-sm text-gray-600">
+              <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>(555) 123-4567</li>
                 <li>info@buildcorp.com</li>
                 <li>123 Construction Ave</li>
@@ -329,12 +329,12 @@ function App() {
           </div>
           <Separator className="my-6" />
           <div className="flex flex-col items-center justify-between space-y-4 md:flex-row md:space-y-0">
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-muted-foreground">
               © 2024 BuildCorp. All rights reserved.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-sm text-gray-600 hover:text-gray-900">Privacy Policy</a>
-              <a href="#" className="text-sm text-gray-600 hover:text-gray-900">Terms of Service</a>
+              <a href="#" className="text-sm text-muted-foreground hover:text-foreground">Privacy Policy</a>
+              <a href="#" className="text-sm text-muted-foreground hover:text-foreground">Terms of Service</a>
             </div>
           </div>
         </div>
